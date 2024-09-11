@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background: black;
+}
+
+p {
+    font-size: 1.25em;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.imgauthor{
+    border-radius: 50px;
+    max-width: 23%;
+    filter: sepia(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.headerpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150vh;
+  height: 40vh;
+  filter: sepia(50%);
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  border-radius: 5em;
+  padding-bottom: 1.5em;
+}
+
+li {
+    font-size: 1.5em;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+h1 {
+    color: rgb(255, 176, 176);
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: rgb(209, 209, 209);
+    display: block;
+    font-size: 38px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(209, 209, 209);
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .container {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.247);
+    border-width: 0.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+
+  .containerfoot {
+    margin-top: 15em ;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.247);
+    border-width: 0.05em;
+  }
+
+
+  .footnote {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+  }
+
+  /* unvisited link */
+a:link {
+    color: rgb(109, 109, 109);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(167, 157, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+  .flexcontainer {
+    display: flex;
+    background-color: rgb(75, 52, 52);
+    border-color: rgb(217, 255, 0);
+    border-radius: 0.25em;
+    flex-direction: column;
+    padding: 1em;
+    order: 2;
+    justify-content: flex-start;
+    margin-right: 105em;
+    margin-left: 2.5em;
+    align-items: center;
+    border-style: inset;
+  }
